@@ -3,7 +3,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class Calculator implements ActionListener{
+public class Test implements ActionListener{
 
     JFrame frame;
     JTextField textfield;
@@ -18,7 +18,7 @@ public class Calculator implements ActionListener{
     double num1=0,num2=0,result=0;
     char operator;
 
-    Calculator(){
+    Test(){
 
         frame = new JFrame("Calculator");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -98,7 +98,7 @@ public class Calculator implements ActionListener{
 
     public static void main(String[] args) {
 
-        Calculator calc = new Calculator();
+        Test calc = new Test();
     }
 
     @Override
@@ -168,4 +168,5 @@ public class Calculator implements ActionListener{
             textfield.setText(String.valueOf(temp));
         }
     }
-}*/
+}
+*/
